@@ -1,0 +1,14 @@
+{
+  "name": "munin-plugin-knxd",
+  "version": "1.0.0",
+  "description": "A munin plugin to monitor KNX values fetched from knxd/eibd. Requires a group address export from ETS in XML format.",
+  "main": "index.js",
+  "dependencies": {
+    "eibd": "^0.5.1",
+    "knx-datapoints": "^1.1.2",
+    "sax-parser": "^2.0.2"
+  },
+  "devDependencies": {},
+  "author": "Jannis Achstetter <kripton@kripserver.net>",
+  "license": "BSD-3-Clause"
+}
